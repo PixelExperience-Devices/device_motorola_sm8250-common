@@ -71,7 +71,6 @@ on late-fs
     mount_all /vendor/etc/fstab.qcom --late
 
 on post-fs-data
-    mkdir /vendor/data/tombstones 0771 system system
     # Enable WLAN cold boot calibration
     write /sys/devices/platform/soc/b0000000.qcom,cnss-qca6390/fs_ready 1
 
