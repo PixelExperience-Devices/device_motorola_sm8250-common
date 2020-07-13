@@ -16,8 +16,6 @@
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-BOARD_VENDOR := motorola
-
 COMMON_PATH := device/motorola/sm8250-common
 
 # Architecture
