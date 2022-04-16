@@ -197,6 +197,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.class_main.sh \
     init.ets.rc \
+    init.gadgethal.sh \
     init.mdm.sh \
     init.mmi.charge_only.rc \
     init.mmi.laser.sh \
@@ -212,6 +213,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qti.dcvs.sh \
     init.recovery.qcom.rc \
+    init.qcom.usb.rc \
     init.target.rc \
     ueventd.qcom.rc
 
@@ -424,11 +426,7 @@ PRODUCT_PACKAGES += \
 
 # USB HAL
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service-qti \
-    init.qcom.usb.rc \
-    init.qcom.usb.sh
-
-PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
+    android.hardware.usb@1.2-service.motokona
 
 # Vibrator
 $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
@@ -449,7 +447,9 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel
 
 # Telephony
 PRODUCT_PACKAGES += \
