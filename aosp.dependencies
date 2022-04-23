@@ -11,6 +11,12 @@
     "branch": "thirteen"
   },
   {
+    "remote": "gitlab",
+    "repository": "JarlPenguin/packages_apps_MotCamera3",
+    "target_path": "packages/apps/MotCamera3",
+    "branch": "thirteen-sm8250"
+  },
+  {
     "remote": "pixel-devices-blobs",
     "repository": "vendor_motorola_sm8250-common",
     "target_path": "vendor/motorola/sm8250-common",
