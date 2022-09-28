@@ -314,7 +314,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Camera {{{
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.expose.aux=1 \
-    persist.vendor.camera.physical.num=5
+    persist.vendor.camera.physical.num=5 \
+    persist.vendor.camera.privapp.list=com.motorola.camera3
 # }}}
 
 # Dalvik {{{
