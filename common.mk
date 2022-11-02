@@ -50,8 +50,7 @@ PRODUCT_PACKAGES += \
     WifiResTarget
 
 PRODUCT_PACKAGES += \
-    FrameworksResMotoKona \
-    SettingsResMotoKona
+    FrameworksResMotoKona
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
