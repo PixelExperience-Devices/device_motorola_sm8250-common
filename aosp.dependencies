@@ -8,7 +8,7 @@
   {
     "repository": "kernel_motorola_sm8250",
     "target_path": "kernel/motorola/sm8250",
-    "branch": "thirteen"
+    "branch": "thirteen-wip"
   },
   {
     "remote": "gitlab",
@@ -20,6 +20,6 @@
     "remote": "pixel-devices-blobs",
     "repository": "vendor_motorola_sm8250-common",
     "target_path": "vendor/motorola/sm8250-common",
-    "branch": "thirteen"
+    "branch": "thirteen-wip"
   }
 ]
