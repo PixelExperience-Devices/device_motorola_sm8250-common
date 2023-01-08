@@ -28,3 +28,5 @@ recovery_only(`
 
 # Mount
 allow init debugfs_tracing_debug:dir mounton;
+
+allow init proc:file { write };
