@@ -5,3 +5,6 @@ vendor_internal_prop(vendor_mot_touch_prop);
 
 # Aware
 vendor_restricted_prop(vendor_aware_available_prop);
+
+# Subsystem state notifier
+vendor_internal_prop(vendor_subsys_state_notifier_prop);
