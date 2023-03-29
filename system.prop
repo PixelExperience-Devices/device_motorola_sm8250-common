@@ -49,6 +49,8 @@ ril.subscription.types=NV,RUIM
 DEVICE_PROVISIONED=1
 # Set network mode to (NR_LTE_TDSCDMA_CDMA_EVDO_GSM_WCDMA, NR_LTE_TDSCDMA_CDMA_EVDO_GSM_WCDMA) for 8+8 mode device on DSDS mode
 ro.telephony.default_network=33,33
+# RCS
+persist.rcs.supported=1
 
 # dalvik.vm.heapsize=36m
 dev.pm.dyn_samplingrate=1
