@@ -53,10 +53,6 @@ on early-init
     # Log kernel wake-up source
     write /sys/module/msm_show_resume_irq/parameters/debug_mask 1
 
-on fs
-    insmod /vendor/lib/modules/cci_intf.ko
-    mkdir /mnt/vendor/persist/fps 0770 system system
-
 on fs && property:ro.vendor.hw.modem_version=*
     # Super modem detection
     exec_start vendor.oem-super-image-detector-sh
