@@ -132,6 +132,8 @@ use.voice.path.for.pcm.voip=true
 # system prop for NFC DT
 ro.nfc.port=I2C
 
+#SSR
+persist.vendor.ssr.restart_level=ALL_ENABLE
 #initialize QCA1530 detection
 sys.qca1530=detect
 
