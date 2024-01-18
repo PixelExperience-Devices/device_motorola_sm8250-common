@@ -333,8 +333,6 @@ vendor.usb.use_ffs_mtp=0
 ro.incremental.enable=1
 ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
-# privapp-permissions whitelisting (To Fix CTS :privappPermissionsMustBeEnforced)
-ro.control_privapp_permissions=enforce
 
 ## OEM Unlock reporting
 ro.oem_unlock_supported=1
