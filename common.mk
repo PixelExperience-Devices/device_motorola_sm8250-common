@@ -337,6 +337,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.motokona
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.1-service.moto_kona
+
 # Media
 PRODUCT_PACKAGES += \
     libmm-omxcore \
