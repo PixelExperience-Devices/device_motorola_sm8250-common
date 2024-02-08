@@ -3,6 +3,9 @@ ro.vendor.aware_available          u:object_r:vendor_aware_available_prop:s0
 
 # Camera
 vendor.camera.coming.cts   u:object_r:vendor_camera_prop:s0
+vendor.camera.             u:object_r:vendor_camera_prop:s0
+vendor.camera.aux.         u:object_r:vendor_camera_prop:s0
+persist.vendor.camera      u:object_r:vendor_camera_prop:s0
 
 # Radio
 vendor.ril.                u:object_r:vendor_radio_prop:s0
