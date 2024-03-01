@@ -15,5 +15,11 @@
     "repository": "vendor_motorola_sm8250-common",
     "target_path": "vendor/motorola/sm8250-common",
     "branch": "fourteen"
+  },
+  {
+    "remote": "pixel-devices-blobs",
+    "repository": "vendor_motorola-extra",
+    "target_path": "vendor/motorola-extra",
+    "branch": "fourteen"
   }
 ]
